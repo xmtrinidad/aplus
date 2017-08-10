@@ -1,0 +1,40 @@
+.select {
+  display: flex;
+  max-width: 430px;
+  margin: 40px auto;
+
+  div {
+    cursor: pointer;
+    width: 130px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    opacity: .5;
+    transition: transform .3s, opacity .3s;
+  }
+}
+
+.select div:first-child {
+  background-color: #f36c23;
+  border-bottom-left-radius: 10px;
+
+}
+
+.select div:nth-child(2){
+  background-color: #f5a81c;
+}
+
+.select div:nth-child(3) {
+  background-color: #c1d42f;
+}
+
+.select div:last-child {
+  border-top-right-radius: 10px;
+  background-color: #0090ba;
+}
+
+.active {
+  transform: scale(1.15,1.15);
+  opacity: 1 !important;
+  z-index: 1;
+}
