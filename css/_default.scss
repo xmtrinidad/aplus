@@ -2,7 +2,20 @@ svg {
   width: 60px;
 }
 
+// troubleshooting svg
 .trouble {
   width: 45px;
 }
+
+
+// Bold first li elements
+.objective_list > ul > li {
+  font-weight: bold;
+}
+
+// 2nd level li and above get normal font weight
+.objective_list > ul > li ul {
+  font-weight: normal;
+}
+
 

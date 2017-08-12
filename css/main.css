@@ -4,6 +4,12 @@ svg {
 .trouble {
   width: 45px; }
 
+.objective_list > ul > li {
+  font-weight: bold; }
+
+.objective_list > ul > li ul {
+  font-weight: normal; }
+
 .select {
   display: flex;
   max-width: 430px;
