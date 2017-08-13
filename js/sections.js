@@ -23,6 +23,7 @@ function sectionButtons(btn) {
 }
 
 //Show/hide sections
+let $pageTitle = $(".curr_page_title");
 function showHideSections(clicked) {
     // Hide subsections
     $("main").find(".section_active").removeClass("section_active");

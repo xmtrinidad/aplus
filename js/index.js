@@ -1,8 +1,7 @@
-let $pageTitle = $(".curr_page_title");
-
+let $toTopBtn = $(".to_top");
 
 // scroll to top
-$(".to_top").on("click", function(){
+$toTopBtn.on("click", function(){
     $("body").animate({ scrollTop: 0 }, 500);
 });
 
@@ -10,9 +9,9 @@ $(".to_top").on("click", function(){
 $(window).scroll(function(){
     let position = $(document).scrollTop();
     if (position >= 400) {
-        $(".to_top").show();
+        $toTopBtn.show();
     } else {
-        $(".to_top").hide();
+        $toTopBtn.hide();
     }
 });
 

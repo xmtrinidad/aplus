@@ -1,8 +1,8 @@
 DONE add scroll to top button
 DONE add links to hardware sections (1.1, 1.2, 1.3 etc)
-TODO add links to network sections (1.1, 1.2, 1.3 etc)
-TODO add links to mobile sections (1.1, 1.2, 1.3 etc)
-TODO add links to troubleshooting sections (1.1, 1.2, 1.3 etc)
+DONE add links to network sections (1.1, 1.2, 1.3 etc)
+DONE add links to mobile sections (1.1, 1.2, 1.3 etc)
+DONE add links to troubleshooting sections (1.1, 1.2, 1.3 etc)
     DONE smooth scroll to section
     DONE Style scroll button
     DONE Hide scroll button when at top of page
@@ -13,6 +13,8 @@ TODO Add links to hardware section
 TODO Add links to network section
 TODO Add links to mobile section
 TODO Add links to troubleshooting section
+
+TODO add drop down list for 2nd level and beyond uls
 
 TODO add header
 TODO add footer
