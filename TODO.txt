@@ -9,10 +9,10 @@ DONE add links to troubleshooting sections (1.1, 1.2, 1.3 etc)
 
 TODO look to see if there's a way to fill in empty space on CSS grid spec
 
-TODO Add links to hardware section
-TODO Add links to network section
-TODO Add links to mobile section
-TODO Add links to troubleshooting section
+DONE Add links to hardware section
+DONE Add links to network section
+DONE Add links to mobile section
+DONE Add links to troubleshooting section
 
 TODO add drop down list for 2nd level and beyond uls
 
