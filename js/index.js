@@ -15,6 +15,18 @@ $(window).scroll(function(){
     }
 });
 
+$(".objective_title").on("click", function(){
+    if ($(window).width() >= 768 ) {
+        return;
+    }
+    $(this).parent().find(".objective_list").slideToggle();
+});
 
 
-
+$(window).on("resize", function(){
+    if ($(window).width() >= 768 ) {
+        $(".objective_list").show();
+    } else {
+        $(".objective_list").hide();
+    }
+});

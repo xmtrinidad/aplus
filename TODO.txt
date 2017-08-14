@@ -14,7 +14,5 @@ DONE Add links to network section
 DONE Add links to mobile section
 DONE Add links to troubleshooting section
 
-TODO add drop down list for 2nd level and beyond uls
-
-TODO add header
+DONE add header
 TODO add footer

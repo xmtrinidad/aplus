@@ -2,23 +2,22 @@
 let $hwObjectives = $(".hw .objectives");
 let $nwObjectives = $(".nw .objectives");
 let $tsObjectives = $(".ts .objectives");
+let index0 = 0;
+let index1 = 1;
+let index2 = 2;
 
 // Hardware section
 $(".hw.section_nav p").on("click", function(){
-    // console.log($(this).index("p"));
-    let hwBtnIndex0 = 0;
-    let hwBtnIndex1 = 1;
-    let hwBtnIndex2 = 2;
     // All sections
-    if ($(this).index("p") === hwBtnIndex0) {
+    if ($(this).index() === index0) {
         $hwObjectives.show();
     }
     // Sections 1.1 - 1.4
-    else if ($(this).index("p") === hwBtnIndex1) {
+    else if ($(this).index() === index1) {
         showHide($hwObjectives, 3);
     }
     // Sections 1.5 - 1.9
-    else if ($(this).index("p") === hwBtnIndex2) {
+    else if ($(this).index() === index2) {
         showHide($hwObjectives, 4, 8);
     }
     // Sections 1.10 - 1.15
@@ -30,17 +29,14 @@ $(".hw.section_nav p").on("click", function(){
 
 // Network section
 $(".nw.section_nav p").on("click", function(){
-    // console.log($(this).index("p"));
-    let nwBtnIndex19 = 19;
-    let nwBtnIndex20 = 20;
+    console.log($(this).index());
 
     // All sections
-
-    if ($(this).index("p") === nwBtnIndex19) {
+    if ($(this).index() === index0) {
         $nwObjectives.show();
     }
     // Sections 2.1 - 2.4
-    else if ($(this).index("p") === nwBtnIndex20) {
+    else if ($(this).index() === index1) {
         showHide($nwObjectives, 3);
     }
     // Sections 2.5 - 2.9
@@ -51,18 +47,12 @@ $(".nw.section_nav p").on("click", function(){
 
 // Troubleshooting section
 $(".ts.section_nav p").on("click", function(){
-    console.log($(this).index("p"));
-    let tsBtnIndex37 = 37;
-    let tsBtnIndex38 = 38;
-    let tsBtnIndex39 = 39;
-
-
     // All sections
-    if ($(this).index("p") === tsBtnIndex37) {
+    if ($(this).index() === index0) {
         $tsObjectives.show();
     }
     // Sections 4.1 - 4.4
-    else if ($(this).index("p") === tsBtnIndex38) {
+    else if ($(this).index() === index1) {
         showHide($tsObjectives, 3);
     }
     // Sections 4.5 - 4.6

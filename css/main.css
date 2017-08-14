@@ -4,11 +4,29 @@ svg {
 .trouble {
   width: 45px; }
 
+li {
+  margin: 7px 0; }
+
 .objective_list > ul > li {
   font-weight: bold; }
 
 .objective_list > ul > li ul {
   font-weight: normal; }
+
+header {
+  padding: 22px 0;
+  text-align: center;
+  background: #5c7684;
+  color: #fff; }
+  header img {
+    width: 200px; }
+  header p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.22rem; }
+  header a {
+    color: #fff;
+    text-decoration: underline; }
 
 .select {
   display: flex;
@@ -57,12 +75,59 @@ svg {
   justify-content: center;
   align-items: center; }
 
+.objective_title span {
+  color: #fff;
+  font-size: .90rem;
+  padding: 4px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px; }
+
+.hw span {
+  background-color: #f36c23; }
+
+.nw span {
+  background-color: #f5a81c; }
+
+.mbd span {
+  background-color: #c1d42f; }
+
+.ts span {
+  background-color: #0090ba; }
+
+.objective_title p {
+  font-weight: bold; }
+
+.objectives {
+  margin: 10px 0; }
+
+.objective_title {
+  cursor: pointer;
+  box-shadow: -1px 2px 5px 2px lightgray;
+  border-radius: 6px;
+  height: 95px;
+  display: flex;
+  align-items: center; }
+  .objective_title p {
+    width: 95%;
+    margin: auto; }
+
+.objective_list {
+  display: none; }
+
+@media (min-width: 768px) {
+  .objective_list {
+    display: grid; }
+
+  .objective_title {
+    border: none; } }
 main h2 {
   color: #f36c23;
   margin-bottom: 25px; }
 main section {
   color: #7a757b;
   display: none; }
+main a {
+  z-index: 2; }
 
 .section_nav {
   margin: -10px 0 20px 0;
@@ -93,40 +158,11 @@ main section {
 .section_active {
   display: grid; }
 
-.objective_title span {
-  color: #fff;
-  font-size: .90rem;
-  padding: 4px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px; }
-
-.hw span {
-  background-color: #f36c23; }
-
-.nw span {
-  background-color: #f5a81c; }
-
-.mbd span {
-  background-color: #c1d42f; }
-
-.ts span {
-  background-color: #0090ba; }
-
-.objective_title p {
-  font-weight: bold; }
-
-.objective_list li {
-  font-size: .90rem; }
-
 @media (min-width: 768px) {
   section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-    font-size: 1.1rem; }
-
-  .objective_list li {
-    font-size: 1.0rem; }
+    grid-gap: 10px; }
 
   .section_nav_active {
     display: flex; } }

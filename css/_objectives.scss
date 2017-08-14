@@ -1,0 +1,62 @@
+// subsection indicators
+.objective_title span {
+  color: #fff;
+  font-size: .90rem;
+
+  padding: 4px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+// subsection indicator bg colors
+.hw span {
+  background-color: #f36c23;
+}
+
+.nw span {
+  background-color: #f5a81c;
+}
+
+.mbd span {
+  background-color: #c1d42f;
+}
+
+.ts span {
+  background-color: #0090ba;
+}
+
+.objective_title p {
+  font-weight: bold;
+}
+
+
+.objectives {
+  margin: 10px 0;
+}
+
+.objective_title {
+  cursor: pointer;
+  box-shadow: -1px 2px 5px 2px lightgray;
+  border-radius: 6px;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  p {
+    width: 95%;
+    margin: auto;
+  }
+}
+
+.objective_list {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .objective_list {
+    display: grid;
+  }
+
+  .objective_title {
+    border: none;
+  }
+}
